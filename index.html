@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranger AI Mining</title>
+    <!-- AdSense Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8191648460080505"
+     crossorigin="anonymous"></script>
+    
+    <!-- Link to global stylesheet (includes Tailwind) -->
+    <link rel="stylesheet" href="/index.css">
+
+    <!-- Import Map for CDN dependencies (can be kept for Vite's dev server or removed if all deps are npm installed) -->
+    <!-- Vite handles npm dependencies well, so this importmap becomes less critical if you `npm install` all deps -->
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.5.1",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.2",
+    "vite": "https://esm.sh/vite@^6.3.5",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^4.5.2",
+    "path": "https://esm.sh/path@^0.12.7"
+  }
+}
+</script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- Vite will inject the bundled script here in build mode -->
+    <!-- For dev mode, Vite serves index.tsx via its dev server -->
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

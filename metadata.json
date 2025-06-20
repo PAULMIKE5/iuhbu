@@ -1,0 +1,6 @@
+
+{
+  "name": "Ranger AI Mining",
+  "description": "A React web application for a cryptocurrency mining platform with AI insights, user accounts, referrals, and token swapping features.",
+  "requestFramePermissions": []
+}
